@@ -118,10 +118,72 @@ namespace tinystl
     //random_access
     template<typename Iterator> struct is_random_access_iterator: public has_iterator_category_of<Iterator, random_access_iterator_tag>{};
 
-
     template<typename Iterator> struct is_iterator: public m_bool_constant<b_is_iterator>{};
 
+    //input advance
+    template<typename Iterator, typename Distance>
+    void advance_dispatch(Iterator& it, Distance n, input_iterator_tag)
+    {
+        while(n--) ++it;
+    }
 
+    //forward advance
+    template<typename Iterator, typename Distance>
+    void advance_dispatch(Iterator& it, Distance n, forward_iterator_tag)
+    {
+        advance_dispatch(it, n, input_iterator_tag())
+    }
+
+    //bidirectional advance
+    template<typename Iterator, typename Distance>
+    void advance_dispatch(Iterator& it, Distance n, bidirectional_iterator_tag)
+    {
+        if(n>0)
+        {
+            while(n--) ++it;
+        }
+        else
+        {
+            while(n++) --t;
+        }
+    }
+
+    //random_access advance
+    template<typename Iterator, typename Distance>
+    void advance_dispatch(Iterator& it, Distance n, random_access_iterator_tag)
+    {
+        it += n;
+    }
+
+    template<typename Iterator, typename Distance>
+    void advance(Iterator& it, Distance n)
+    {
+        advance_dispatch(it, n, iterator_category(it));
+    }
+
+    template<typename Iterator>
+    typename iterator_trait<Iterator>::difference_type distance_dispatch(Iterator begin, Iterator end, input_iterator_tag)
+    {
+        typename iterator_trait<Iterator>::difference_type dist{};
+        while(begin != end)
+        {
+            end--;
+            dist++;
+        }
+        return dist;    
+    }
+
+    template<typename Iterator>
+    typename iterator_trait<Iterator>::difference_type distance_dispatch(Iterator begin, Iterator end, random_access_iterator_tag)
+    {
+        return end - begin;
+    }
+
+    template<typename Iterator>
+    typename iterator_trait<Iterator>::difference_type distance(Iterator begin, Iterator end)
+    {
+        return distance_dispatch(begin, end, iterator_category(begin));
+    }
 };
 
 #endif // TINYSTL_ITERATOR_H

@@ -4209,3 +4209,567 @@ events:
       Microsoft (R) Incremental Linker Version 14.34.31948.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.2+c078802d4
+      鐢熸垚鍚姩鏃堕棿涓?2025/2/24 18:56:56銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.63
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/C++Project/TinySTL/build/CMakeFiles/3.30.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.2+c078802d4
+      鐢熸垚鍚姩鏃堕棿涓?2025/2/24 18:56:57銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.47
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/C++Project/TinySTL/build/CMakeFiles/3.30.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-5vpiko"
+      binary: "D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-5vpiko"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-5vpiko'
+        
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ba715.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.2+c078802d4
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/24 18:56:57銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vpiko\\cmTC_ba715.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ba715.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vpiko\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ba715.dir\\Debug\\cmTC_ba715.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_ba715.dir\\Debug\\cmTC_ba715.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ba715.dir\\Debug\\cmTC_ba715.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba715.dir\\Debug\\\\" /Fd"cmTC_ba715.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.34.31948 鐗?
+          CMakeCCompilerABI.c
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba715.dir\\Debug\\\\" /Fd"cmTC_ba715.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vpiko\\Debug\\cmTC_ba715.exe" /INCREMENTAL /ILK:"cmTC_ba715.dir\\Debug\\cmTC_ba715.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-5vpiko/Debug/cmTC_ba715.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-5vpiko/Debug/cmTC_ba715.lib" /MACHINE:X64  /machine:x64 cmTC_ba715.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ba715.vcxproj -> D:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vpiko\\Debug\\cmTC_ba715.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_ba715.dir\\Debug\\cmTC_ba715.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ba715.dir\\Debug\\cmTC_ba715.tlog\\cmTC_ba715.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vpiko\\cmTC_ba715.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.41
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.34.31933/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.34.31933/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.34.31948.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-i3bzsh"
+      binary: "D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-i3bzsh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-i3bzsh'
+        
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4cfca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.2+c078802d4
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/24 18:56:58銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i3bzsh\\cmTC_4cfca.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_4cfca.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i3bzsh\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_4cfca.dir\\Debug\\cmTC_4cfca.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_4cfca.dir\\Debug\\cmTC_4cfca.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_4cfca.dir\\Debug\\cmTC_4cfca.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4cfca.dir\\Debug\\\\" /Fd"cmTC_4cfca.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.34.31948 鐗?
+          CMakeCXXCompilerABI.cpp
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4cfca.dir\\Debug\\\\" /Fd"cmTC_4cfca.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i3bzsh\\Debug\\cmTC_4cfca.exe" /INCREMENTAL /ILK:"cmTC_4cfca.dir\\Debug\\cmTC_4cfca.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-i3bzsh/Debug/cmTC_4cfca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-i3bzsh/Debug/cmTC_4cfca.lib" /MACHINE:X64  /machine:x64 cmTC_4cfca.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4cfca.vcxproj -> D:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i3bzsh\\Debug\\cmTC_4cfca.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_4cfca.dir\\Debug\\cmTC_4cfca.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_4cfca.dir\\Debug\\cmTC_4cfca.tlog\\cmTC_4cfca.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i3bzsh\\cmTC_4cfca.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.34.31933/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.34.31933/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.34.31948.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.2+c078802d4
+      鐢熸垚鍚姩鏃堕棿涓?2025/2/25 8:15:28銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.90
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/C++Project/TinySTL/build/CMakeFiles/3.30.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.2+c078802d4
+      鐢熸垚鍚姩鏃堕棿涓?2025/2/25 8:15:29銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.59
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/C++Project/TinySTL/build/CMakeFiles/3.30.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-pp6d72"
+      binary: "D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-pp6d72"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-pp6d72'
+        
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_feb47.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.2+c078802d4
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/25 8:15:30銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp6d72\\cmTC_feb47.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_feb47.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp6d72\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_feb47.dir\\Debug\\cmTC_feb47.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_feb47.dir\\Debug\\cmTC_feb47.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_feb47.dir\\Debug\\cmTC_feb47.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_feb47.dir\\Debug\\\\" /Fd"cmTC_feb47.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.34.31948 鐗?
+          CMakeCCompilerABI.c
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_feb47.dir\\Debug\\\\" /Fd"cmTC_feb47.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp6d72\\Debug\\cmTC_feb47.exe" /INCREMENTAL /ILK:"cmTC_feb47.dir\\Debug\\cmTC_feb47.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-pp6d72/Debug/cmTC_feb47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-pp6d72/Debug/cmTC_feb47.lib" /MACHINE:X64  /machine:x64 cmTC_feb47.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_feb47.vcxproj -> D:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp6d72\\Debug\\cmTC_feb47.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_feb47.dir\\Debug\\cmTC_feb47.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_feb47.dir\\Debug\\cmTC_feb47.tlog\\cmTC_feb47.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp6d72\\cmTC_feb47.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.34.31933/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.34.31933/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.34.31948.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-x429d4"
+      binary: "D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-x429d4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-x429d4'
+        
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_18c83.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.2+c078802d4
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/25 8:15:31銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x429d4\\cmTC_18c83.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_18c83.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x429d4\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_18c83.dir\\Debug\\cmTC_18c83.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_18c83.dir\\Debug\\cmTC_18c83.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_18c83.dir\\Debug\\cmTC_18c83.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_18c83.dir\\Debug\\\\" /Fd"cmTC_18c83.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.34.31948 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_18c83.dir\\Debug\\\\" /Fd"cmTC_18c83.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x429d4\\Debug\\cmTC_18c83.exe" /INCREMENTAL /ILK:"cmTC_18c83.dir\\Debug\\cmTC_18c83.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-x429d4/Debug/cmTC_18c83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/C++Project/TinySTL/build/CMakeFiles/CMakeScratch/TryCompile-x429d4/Debug/cmTC_18c83.lib" /MACHINE:X64  /machine:x64 cmTC_18c83.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_18c83.vcxproj -> D:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x429d4\\Debug\\cmTC_18c83.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_18c83.dir\\Debug\\cmTC_18c83.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_18c83.dir\\Debug\\cmTC_18c83.tlog\\cmTC_18c83.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\C++Project\\TinySTL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x429d4\\cmTC_18c83.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.34.31933/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.34.31933/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.34.31948.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
